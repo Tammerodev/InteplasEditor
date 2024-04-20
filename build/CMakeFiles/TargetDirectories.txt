@@ -1,0 +1,3 @@
+/home/lauri/Documents/InteplasEditor/build/CMakeFiles/InteplasEditor.dir
+/home/lauri/Documents/InteplasEditor/build/CMakeFiles/edit_cache.dir
+/home/lauri/Documents/InteplasEditor/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/lauri/Documents/InteplasEditor/build",
+  "command": "/usr/bin/c++ -DTGUI_DYNAMIC -I/usr/include/jsoncpp -isystem /usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/InteplasEditor.dir/src/main.cpp.o -c /home/lauri/Documents/InteplasEditor/src/main.cpp",
+  "file": "/home/lauri/Documents/InteplasEditor/src/main.cpp"
+}
+]
