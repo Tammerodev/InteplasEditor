@@ -10,7 +10,8 @@ class AboutPopup {
             gui.add(aboutWindow);
         }
 
-        void show() {
+        void show(tgui::BackendGui& gui, tgui::Theme& theme) {
+            load(gui, theme);
             aboutWindow->showWithEffect(tgui::ShowEffectType::Scale, tgui::Duration(100));
 
         }

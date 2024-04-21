@@ -22,18 +22,34 @@ class GUIManager {
             menu->addMenu("Help");
                 menu->addMenuItem("About");
 
-            menu->onMenuItemClick([this](const std::vector<tgui::String>& menuItem){
+            menu->onMenuItemClick([this, &gui, &theme](const std::vector<tgui::String>& menuItem){
                 if (menuItem[0] == "Help" && menuItem[1] == "About")
-                    this->showAbout();
+                    this->showAbout(gui, theme);
+
+                if (menuItem[0] == "File" && menuItem[1] == "Load") {
+                    auto fileSelect = tgui::FileDialog::create();
+         
+                    fileSelect->onFileSelect(selectFile, std::ref(*fileSelect));
+
+                    gui.add(fileSelect);
+                }
+
             });
 
             gui.add(menu);
         }
 
-        void showAbout() {
-            aboutPopup.show();
+        void showAbout(tgui::BackendGui& gui, tgui::Theme& theme) {
+            aboutPopup.show(gui, theme);
         }
+        
     private:
+
+        static void selectFile(tgui::FileDialog& fileSelect) {
+            std::string file = fileSelect.getSelectedPaths().at(0).asString().toStdString();
+            std::cout << "PATH: " << file << std::endl;
+        }
+
         tgui::MenuBar::Ptr menu = nullptr;
 
         AboutPopup aboutPopup;
