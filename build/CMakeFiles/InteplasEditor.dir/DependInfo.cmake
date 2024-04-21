@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/lauri/Documents/InteplasEditor/src/EditImage.cpp" "CMakeFiles/InteplasEditor.dir/src/EditImage.cpp.o" "gcc" "CMakeFiles/InteplasEditor.dir/src/EditImage.cpp.o.d"
   "/home/lauri/Documents/InteplasEditor/src/Editor.cpp" "CMakeFiles/InteplasEditor.dir/src/Editor.cpp.o" "gcc" "CMakeFiles/InteplasEditor.dir/src/Editor.cpp.o.d"
+  "/home/lauri/Documents/InteplasEditor/src/Tool/ToolManager.cpp" "CMakeFiles/InteplasEditor.dir/src/Tool/ToolManager.cpp.o" "gcc" "CMakeFiles/InteplasEditor.dir/src/Tool/ToolManager.cpp.o.d"
   "/home/lauri/Documents/InteplasEditor/src/main.cpp" "CMakeFiles/InteplasEditor.dir/src/main.cpp.o" "gcc" "CMakeFiles/InteplasEditor.dir/src/main.cpp.o.d"
   )
 

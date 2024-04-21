@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/InteplasEditor.dir/src/EditImage.cpp.o.d"
   "CMakeFiles/InteplasEditor.dir/src/Editor.cpp.o"
   "CMakeFiles/InteplasEditor.dir/src/Editor.cpp.o.d"
+  "CMakeFiles/InteplasEditor.dir/src/Tool/ToolManager.cpp.o"
+  "CMakeFiles/InteplasEditor.dir/src/Tool/ToolManager.cpp.o.d"
   "CMakeFiles/InteplasEditor.dir/src/main.cpp.o"
   "CMakeFiles/InteplasEditor.dir/src/main.cpp.o.d"
   "InteplasEditor"

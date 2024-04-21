@@ -7,12 +7,16 @@ void Editor::load() {
     gui.setWindow(window);
 
     editImage.load(sf::Vector2f(window.getSize()));
+    toolManager.load();
 
     guiManager.load(gui, theme);
 }
 
 void Editor::update() {
     editImage.update();
+
+    const sf::Vector2i &pos = sf::Vector2i(editImage.getCursorPosition(window));
+    toolManager.update(pos, editImage);
 }
 
 void Editor::input() {

@@ -177,6 +177,30 @@ src/Editor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/InteplasEditor.dir/build.make CMakeFiles/InteplasEditor.dir/src/Editor.cpp.s
 .PHONY : src/Editor.cpp.s
 
+src/Tool/ToolManager.o: src/Tool/ToolManager.cpp.o
+.PHONY : src/Tool/ToolManager.o
+
+# target to build an object file
+src/Tool/ToolManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/InteplasEditor.dir/build.make CMakeFiles/InteplasEditor.dir/src/Tool/ToolManager.cpp.o
+.PHONY : src/Tool/ToolManager.cpp.o
+
+src/Tool/ToolManager.i: src/Tool/ToolManager.cpp.i
+.PHONY : src/Tool/ToolManager.i
+
+# target to preprocess a source file
+src/Tool/ToolManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/InteplasEditor.dir/build.make CMakeFiles/InteplasEditor.dir/src/Tool/ToolManager.cpp.i
+.PHONY : src/Tool/ToolManager.cpp.i
+
+src/Tool/ToolManager.s: src/Tool/ToolManager.cpp.s
+.PHONY : src/Tool/ToolManager.s
+
+# target to generate assembly for a file
+src/Tool/ToolManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/InteplasEditor.dir/build.make CMakeFiles/InteplasEditor.dir/src/Tool/ToolManager.cpp.s
+.PHONY : src/Tool/ToolManager.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... src/Editor.o"
 	@echo "... src/Editor.i"
 	@echo "... src/Editor.s"
+	@echo "... src/Tool/ToolManager.o"
+	@echo "... src/Tool/ToolManager.i"
+	@echo "... src/Tool/ToolManager.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
