@@ -129,6 +129,30 @@ InteplasEditor/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/InteplasEditor.dir/build.make CMakeFiles/InteplasEditor.dir/build
 .PHONY : InteplasEditor/fast
 
+src/EditImage.o: src/EditImage.cpp.o
+.PHONY : src/EditImage.o
+
+# target to build an object file
+src/EditImage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/InteplasEditor.dir/build.make CMakeFiles/InteplasEditor.dir/src/EditImage.cpp.o
+.PHONY : src/EditImage.cpp.o
+
+src/EditImage.i: src/EditImage.cpp.i
+.PHONY : src/EditImage.i
+
+# target to preprocess a source file
+src/EditImage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/InteplasEditor.dir/build.make CMakeFiles/InteplasEditor.dir/src/EditImage.cpp.i
+.PHONY : src/EditImage.cpp.i
+
+src/EditImage.s: src/EditImage.cpp.s
+.PHONY : src/EditImage.s
+
+# target to generate assembly for a file
+src/EditImage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/InteplasEditor.dir/build.make CMakeFiles/InteplasEditor.dir/src/EditImage.cpp.s
+.PHONY : src/EditImage.cpp.s
+
 src/Editor.o: src/Editor.cpp.o
 .PHONY : src/Editor.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... InteplasEditor"
+	@echo "... src/EditImage.o"
+	@echo "... src/EditImage.i"
+	@echo "... src/EditImage.s"
 	@echo "... src/Editor.o"
 	@echo "... src/Editor.i"
 	@echo "... src/Editor.s"

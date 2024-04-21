@@ -1,6 +1,7 @@
 #pragma once
 #include "EditorGlobals.hpp"
 #include "GUI/GUIManager.hpp"
+#include "EditImage.hpp"
 
 #include <TGUI/TGUI.hpp>
 #include <TGUI/Backend/SFML-Graphics.hpp>
@@ -19,4 +20,5 @@ class Editor {
         tgui::Gui gui;
 
         GUIManager guiManager;
+        EditImage editImage;
 };

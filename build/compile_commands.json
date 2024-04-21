@@ -1,6 +1,11 @@
 [
 {
   "directory": "/home/lauri/Documents/InteplasEditor/build",
+  "command": "/usr/bin/c++ -DTGUI_DYNAMIC -I/usr/include/jsoncpp -isystem /usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/InteplasEditor.dir/src/EditImage.cpp.o -c /home/lauri/Documents/InteplasEditor/src/EditImage.cpp",
+  "file": "/home/lauri/Documents/InteplasEditor/src/EditImage.cpp"
+},
+{
+  "directory": "/home/lauri/Documents/InteplasEditor/build",
   "command": "/usr/bin/c++ -DTGUI_DYNAMIC -I/usr/include/jsoncpp -isystem /usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/InteplasEditor.dir/src/Editor.cpp.o -c /home/lauri/Documents/InteplasEditor/src/Editor.cpp",
   "file": "/home/lauri/Documents/InteplasEditor/src/Editor.cpp"
 },

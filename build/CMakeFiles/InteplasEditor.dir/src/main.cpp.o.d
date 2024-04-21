@@ -411,6 +411,7 @@ CMakeFiles/InteplasEditor.dir/src/main.cpp.o: \
  /usr/include/TGUI/Widgets/TreeView.hpp \
  /usr/include/TGUI/Renderers/TreeViewRenderer.hpp \
  /usr/include/TGUI/Widgets/VerticalLayout.hpp \
+ /home/lauri/Documents/InteplasEditor/src/EditImage.hpp \
  /usr/include/TGUI/Backend/SFML-Graphics.hpp \
  /usr/include/TGUI/Backend/Window/SFML/BackendSFML.hpp \
  /usr/include/TGUI/Backend/Window/SFML/BackendGuiSFML.hpp \

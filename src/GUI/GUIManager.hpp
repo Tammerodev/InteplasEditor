@@ -48,6 +48,8 @@ class GUIManager {
         static void selectFile(tgui::FileDialog& fileSelect) {
             std::string file = fileSelect.getSelectedPaths().at(0).asString().toStdString();
             std::cout << "PATH: " << file << std::endl;
+
+            EditorGlobals::image_path = file;
         }
 
         tgui::MenuBar::Ptr menu = nullptr;
